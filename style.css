@@ -32,7 +32,7 @@ a {
 }
 
 .img__huella {
-    width: 400px;
+    width: 30%;
     height: auto;
     padding-right: 50px;
 }
@@ -169,4 +169,45 @@ footer {
 .footer__derecha {
     padding-top: 18px;
     padding-left: 50%;
+}
+
+@media (max-width:1200px) {
+
+    header {
+        justify-content: center;
+    }
+
+    .botones__header {
+        display: none;
+    }
+
+    .huella {
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .img__huella {
+        order: 2;
+        width: 50%;
+    }
+
+
+    .formulario__grupo1 {
+        display: flexbox;
+    }
+
+    .formulario__grupo1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 1%;
+    }
+
+    button {
+        margin-left: 0;
+    }
+
+
+
 }
