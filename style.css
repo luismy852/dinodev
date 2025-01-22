@@ -1,3 +1,23 @@
-header{
-    background-color: forestgreen;
+* {
+    margin: 0;
+}
+
+header {
+    background-color: #C1E81B;
+    display: flex;
+}
+
+.botones__header {
+    font-size: 36px;
+    display: flex;
+    align-items: center;
+}
+
+a {
+    padding-left: 50px;
+}
+
+.logo {
+    width: 375px;
+    height: auto;
 }
