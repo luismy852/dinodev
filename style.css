@@ -5,6 +5,7 @@
 header {
     background-color: #C1E81B;
     display: flex;
+    width: 1404px;
 }
 
 .botones__header {
@@ -20,4 +21,52 @@ a {
 .logo {
     width: 375px;
     height: auto;
+}
+
+.huella {
+    padding-top: 50px;
+    display: flex;
+}
+
+.img__huella {
+    width: 400px;
+    height: auto;
+    padding-right: 50px;
+    padding-left: 90px;
+}
+
+h1 {
+    font-size: 64px;
+    text-align: center;
+    width: 702px;
+    padding-bottom: 60px;
+}
+
+.parrafo__huella {
+    font-size: 40px;
+    text-align: center;
+    width: 610px;
+}
+
+.titulo__servicios {
+    text-align: center;
+    padding-top: 100px;
+    font-size: 64px;
+}
+
+.servicio {
+    display: flex;
+    font-size: 36px;
+    padding-top: 50px;
+}
+
+.servicio__imagen {
+    width: 128px;
+    height: auto;
+    padding-left: 240px;
+    padding-right: 100px;
+}
+
+.servicio__texto {
+    width: 809px;
 }
