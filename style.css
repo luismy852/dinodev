@@ -211,3 +211,36 @@ footer {
 
 
 }
+
+@media (max-width:703px) {
+
+    h1 {
+        width: 90%;
+    }
+
+    .parrafo__huella {
+        width: 90%;
+    }
+
+    .servicio__imagen {
+        width: 20%;
+        height: 20%;
+        padding-right: 5%;
+    }
+
+    .forma {
+        width: 95vw;
+    }
+
+    .forma2 {
+        width: 95vw;
+    }
+
+    button {
+        width: 95vw;
+    }
+
+    .footer__derecha {
+        padding-left: 20%;
+    }
+}
