@@ -184,14 +184,31 @@ footer {
     .huella {
         flex-direction: column;
         align-items: center;
+        justify-content: center;
 
+    }
+
+    .texto__huella {
+        text-align: center;
+        /* Centra el texto */
+        display: flex;
+        flex-direction: column;
+        /* Organiza los elementos verticalmente */
+        align-items: center;
+        /* Centra los elementos dentro de este div */
+        padding-bottom: 4%;
     }
 
     .img__huella {
         order: 2;
         width: 50%;
+        padding: 0;
     }
 
+
+    .servicio {
+        padding-right: 2%;
+    }
 
     .formulario__grupo1 {
         display: flexbox;
