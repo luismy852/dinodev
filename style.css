@@ -76,11 +76,17 @@ h1 {
     width: 809px;
 }
 
+.titulo__formulario__div {
+    display: flex;
+    justify-content: center;
+}
+
 .titulo__formulario {
     text-align: center;
     padding-top: 100px;
     font-size: 64px;
     padding-bottom: 50px;
+    width: 1117px;
 }
 
 .formulario {
